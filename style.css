@@ -1,0 +1,110 @@
+/*header style*/
+
+header {
+
+    text-align: center; 
+    padding-right: 1em;
+    padding-top: 1em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    background-color: khaki;
+ 
+ }
+
+ h1 {
+
+    font-family: castellar;
+    text-align: center; 
+ }
+
+ h6 {
+    
+    font-family: Lucida Handwriting;
+    text-align: center; 
+    
+ }
+ 
+ .imagen_logo {
+
+    padding-top: 1em;
+    width:110px;
+    border-radius:100px;
+
+ }
+ 
+ .center {
+
+    text-align: center;
+
+ }
+ 
+ /*navigation menu style*/
+ 
+ nav {
+ 
+    text-align: left; 
+    word-spacing: 30px; 
+    padding: 10px;
+ 
+ }
+
+ /*navigation bar button style*/
+ 
+ nav a {
+ 
+    color: #000000; 
+    text-decoration: underline; 
+    font-size:medium;
+ 
+ } 
+
+.buscar {
+
+    float: right;
+    padding-top: 1em;
+
+}
+
+ .row {
+ 
+    display: flex;     
+    flex-wrap: wrap;
+    margin: 1em;
+ 
+ }
+ 
+ .post-text-box {
+ 
+    flex: 70%; 
+    padding: 20px;
+    margin: 1em;
+ 
+ }
+ 
+ .profile {
+ 
+    flex: 70%;
+    float: right; 
+    padding: 20px;
+ 
+ }
+ 
+ /*profile image and heading style*/
+ 
+ .profile img {
+ 
+    width: 120px;
+ 
+    display: block;
+ 
+    margin-left: 0;
+ 
+    margin-right: 0;
+ 
+ }
+ 
+ .profile h1 {
+ 
+    text-align: center;
+ 
+ }
