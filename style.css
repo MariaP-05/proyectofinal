@@ -14,7 +14,8 @@ header {
  h1 {
 
     font-family: castellar;
-    text-align: center; 
+    text-align: center;
+    
  }
 
  h6 {
@@ -65,46 +66,41 @@ header {
 
 }
 
- .row {
- 
-    display: flex;     
-    flex-wrap: wrap;
-    margin: 1em;
- 
- }
- 
- .post-text-box {
- 
-    flex: 70%; 
-    padding: 20px;
-    margin: 1em;
- 
- }
- 
- .profile {
- 
-    flex: 70%;
-    float: right; 
-    padding: 20px;
- 
- }
- 
- /*profile image and heading style*/
- 
- .profile img {
- 
-    width: 120px;
- 
-    display: block;
- 
-    margin-left: 0;
- 
-    margin-right: 0;
- 
- }
- 
- .profile h1 {
- 
-    text-align: center;
- 
- }
+/* primera parte del main*/
+
+h2 {
+
+   font-family: Lucida Bright;
+   padding-top: 2em;
+
+}
+
+
+
+/* carousel con cards*/
+.card_env {
+
+   display: flex;
+   margin: 10em; 
+   padding: 50px;
+   
+
+}
+
+.card {
+
+   margin: 0 .5em;
+   width: calc(100%/3);
+   
+
+}
+
+.img_env {
+
+   width: 200px;
+   height: 200px;
+
+}
+
+
+
