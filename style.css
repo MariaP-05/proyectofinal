@@ -77,6 +77,35 @@ h2 {
 
 
 
+
+/*aside*/
+
+.video{
+
+   float:right;
+   background-color:burlywood;
+   color: white;
+   overflow: hidden;
+   padding: 5%;
+
+}
+
+.video img {
+
+   width: 300px;
+   display: block;
+   margin-left: 0;
+   margin-right: 0;
+
+}
+
+video h3 {
+
+   text-align: center;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
 /* carousel con cards*/
 .card_env {
 
