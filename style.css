@@ -163,3 +163,35 @@ video h2 {
 
 
 
+
+/*estilo de la pagina de preparados*/
+
+.h1{
+
+   font-family: Algerian;
+   text-align: center;
+   padding-top: 1em;
+
+}
+
+.h2{
+
+   font-family: Lucida Handwriting;
+   text-align: center;
+
+}
+
+
+.section {
+
+margin-left: 15em;
+margin-right: 15em;
+
+}
+
+
+p {
+
+   text-align: justify;
+
+}
