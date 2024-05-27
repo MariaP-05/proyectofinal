@@ -2,118 +2,164 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flores de Bach</title>
-    <link rel="stylesheet" href="../style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flores de Bach</title>
+  <link rel="stylesheet" href="../style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="../script.js"></script>
 </head>
 
 <body>
-    <header>
-        <div class="center">
-            <img class="imagen_logo" src="/imagenes/HAMPI.jpg">
+  <header>
+    <div class="center">
+      <img class="imagen_logo" src="/imagenes/HAMPI.jpg">
+    </div>
+    <h1>Hampiyura</h1>
+    <h6>Flores de Bach</h6>
+    <nav>
+
+      <a href="/index.html">Inicio</a>
+
+      <a href="/paginas/preparados.html">Preparados</a>
+
+      <a href="/paginas/terapiaFloral.html">Terapia</a>
+
+      <div class="buscar">
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button type="button" class="btn btn-success">Buscar</button>
+        </form>
+      </div>
+
+    </nav>
+  </header>
+  <main style="background-color: #FCF4F0;">
+    <div class="section">
+      <div class="h1">¿PARA QUÉ SON UTILIZADAS?</div>
+      <div class="row">
+        <p>
+          Las flores de Bach se utilizan para tratar una amplia gama de emociones y estados mentales. </p>
+        <p>Algunas de las emociones comunes que se pueden abordar con las flores de Bach incluyen:</p>
+        <p>
+          Ansiedad, Estres, Depresión, Miedo, Irritabilidad, Desesperación, etc.
+        </p>
+        <p>
+          Estas son solo algunas de las emociones que se pueden abordar con las flores de Bach. Cada flor tiene sus
+          propias propiedades curativas y se selecciona según las emociones específicas que se deseen
+          tratar.</p>
+        <p>Es importante recordar que las flores de Bach no son un sustituto de la atención médica profesional,
+          pero pueden complementar otros enfoques terapéuticos. Siempre es recomendable buscar la orientación
+          de un profesional de la salud antes de comenzar cualquier nuevo tratamiento.
+        </p>
+      </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <section class="formulario">
+      <div class="envoltura">
+        <div class="formulario-flores">
+          <form id="form" action="" class="form">
+            <h3 class="tag"><span>JUGUEMOS!</span></h3>
+            <label for="temor">¿Sientes temor?:</label>
+            <input name="temor" required type="text" id="temor">Responda Si o No<br>
+            <input type="checkbox" name="paralizante" value="Rock Rose" >Paralizante<br>
+            <input type="checkbox" name="causa_conocida" value="Mimulus">De causa conocida<br>
+            <input type="checkbox" name="descontrol" value="Cherry Plum">Al descontrol<br>
+            <input type="checkbox" name="magico" value="Aspen">A lo mágico<br>
+            <input type="checkbox" name="perdida" value="Red Chestnut">A la pérdida<br>
+            <label for="incertidumbre">¿Sientes incertidumbre?:</label>
+            <input name="incertidumbre" required type="text" id="incertidumbre">Responda Si o No<br>
+            <input type="checkbox" name="duda" value="Cerato">Duda<br>
+            <input type="checkbox" name="inestablidad" value="Scleranthus">Inestabilidad<br>
+            <input type="checkbox" name="cansancio" value="Gentian">Cansancio/Inacción<br>
+            <input type="checkbox" name="depresion_conocida" value="Gorse">Depresion por causa conocida<br>
+            <input type="checkbox" name="desesperanza" value="Hornbeam">Desesperanza<br>
+            <input type="checkbox" name="indecision" value="Wild Out">Indecisión/Insatisfacción<br>
+            <label for="desinteres">¿Sientes desinteres?:</label>
+            <input name="desinteres" required type="text" id="desinteres">Responda Si o No<br>
+            <input type="checkbox" name="desatencion" value="Clematis">Desatención<br>
+            <input type="checkbox" name="nostalgia" value="Honeysucle">Nostalgia<br>
+            <input type="checkbox" name="apatia" value="Wild Rose">Apatía<br>
+            <input type="checkbox" name="cansancio_FyM" value="Olive">Cansancio físico y mental<br>
+            <input type="checkbox" name="dialogo" value="White Chestnut">Dialogos internos<br>
+            <input type="checkbox" name="repeticion" value="Chestnut Bud">Repetición de errores/Apurados<br>
+            <input type="checkbox" name="depresion_desc" value="Mustard">Depresión por causa desconocida<br>
+            <label for="soledad">¿Sientes soledad?:</label>
+            <input name="soledad" required type="text" id="soledad">Responda Si o No<br>
+            <input type="checkbox" name="orgullo" value="Water Violet">Orgullo/Reserva/Distancia<br>
+            <input type="checkbox" name="impaciencia" value="Impatiens">Impaciencia/Intolerancia<br>
+            <input type="checkbox" name="escucha" value="Heather">Pobre escucha/Habla indiscriminada<br>
+            <label for="hipersensibles">¿Sientes hipersensibilidad?:</label>
+            <input name="hipersensibles" required type="text" id="hipersensibles">Responda Si o No<br>
+            <input type="checkbox" name="angustia" value="Agrimony">Falsa alegría/Angustia<br>
+            <input type="checkbox" name="sometimiento" value="Centaury">Sometimiento<br>
+            <input type="checkbox" name="influencia" value="Walnut">Influenciabilidad<br>
+            <input type="checkbox" name="envidia" value="Holly">Envidia/Rabia/Celos<br>
+            <label for="desesperado">¿Sientes desesperación?:</label>
+            <input name="desesperado" required type="text" id="desesperado">Responda Si o No<br>
+            <input type="checkbox" name="inseguridad" value="Larch">Inseguridad<br>
+            <input type="checkbox" name="culpa" value="Pine">Culpa<br>
+            <input type="checkbox" name="abrumacion" value="Elm">Abrumación<br>
+            <input type="checkbox" name="aextrema" value="Sweet Chestnut">Angustia extrema<br>
+            <input type="checkbox" name="shock" value="Star of Bethlehem">Shock físico o psíquico<br>
+            <input type="checkbox" name="resentimiento" value="Willow">Resentimiento<br>
+            <input type="checkbox" name="impureza" value="Crab Apple">Impureza<br>
+            <input type="checkbox" name="noexpresa" value="Oak">No poder expresar el sufrimiento<br>
+            <label for="sufrirxotros">¿Sientes que sufres por los demás?:</label>
+            <input name="sufrirxotros" required type="text" id="sufrirxotros">Responda Si o No<br>
+            <input type="checkbox" name="posesivo" value="Chicory">Posesivos<br>
+            <input type="checkbox" name="entusiasmo" value="Vervain">Exceso de entusiasmo<br>
+            <input type="checkbox" name="autoritario" value="Vine">Autoritarismo<br>
+            <input type="checkbox" name="soberbia" value="Beech">Soberbia/Arrogancia<br>
+            <input type="checkbox" name="represion" value="Rock Water">Autorrepresión<br>
+            <button type="submit" class="btn btn-success" onclick="boton_click()">Enviar</button>
+            <p id="resultado"></p>
+          </form>
         </div>
-        <h1>Hampiyura</h1>
-        <h6>Flores de Bach</h6>
-        <nav>
+      </div>
 
-            <a href="/index.html">Inicio</a>
+    </section>
+  </main>
 
-            <a href="/paginas/preparados.html">Preparados</a>
 
-            <a href="/paginas/terapiaFloral.html">Terapia</a>
-
-            <div class="buscar">
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                    <button type="button" class="btn btn-success">Buscar</button>
-                </form>
-            </div>
-
-        </nav>
-    </header>
-    <main style="background-color: #FCF4F0;">
-        <div class="section">
-            <div class="h1">¿PARA QUÉ SON UTILIZADAS?</div>
-            <div class="row">
-                <p>
-                    Las flores de Bach se utilizan para tratar una amplia gama de emociones y estados mentales. Algunas
-                    de
-                    las emociones comunes que se pueden abordar con las flores de Bach incluyen:</p>
-                    
-                    <p>Ansiedad: Flores como Rock Rose, Mimulus y Aspen pueden ayudar a aliviar diferentes tipos de
-                    ansiedad,
-                    ya sea ansiedad generalizada o ansiedades específicas.</p>
-
-                    <p>Estrés: Flores como Elm, Oak y Olive pueden ser útiles para reducir el estrés y restaurar el
-                    equilibrio
-                    emocional en momentos de sobrecarga.</p>
-
-                    <p>Depresión: Flores como Mustard, Gentian y Sweet Chestnut se pueden usar para ayudar a aliviar los
-                    síntomas de la depresión y promover un estado de ánimo más positivo.</p>
-
-                    <p>Miedo: Las flores de Bach como Cherry Plum, Aspen y Mimulus se usan para tratar diferentes tipos de
-                    miedos, desde miedos específicos hasta miedo a lo desconocido.</p>
-
-                    <p>Irritabilidad: Flores como Beech, Holly y Impatiens pueden ayudar a calmar la irritabilidad y
-                    mejorar la
-                    paciencia y la comprensión.</p>
-
-                    <p>Desesperación: Flores como Larch, Pine y Star of Bethlehem pueden ser útiles para tratar
-                    sentimientos de
-                    desesperación, autocrítica y autoestima baja.</p>
-                    <p>Estas son solo algunas de las emociones que se pueden abordar con las flores de Bach. Cada flor
-                    tiene
-                    sus propias propiedades curativas y se selecciona según las emociones específicas que se deseen
-                    tratar.
-                    Es importante recordar que las flores de Bach no son un sustituto de la atención médica profesional,
-                    pero pueden complementar otros enfoques terapéuticos. Siempre es recomendable buscar la orientación
-                    de
-                    un profesional de la salud antes de comenzar cualquier nuevo tratamiento.</p>
-            </div>
+  <footer class="text-center footer-style">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 footer-col">
+          <h3>Localidad</h3>
+          <p>
+            San Nicolás de los Arroyos
+          </p>
+          <p>
+            Buenos Aires
+          </p>
+          <p>
+            Argentina
+          </p>
         </div>
-        </div>
-        </div>
-        </div>
+        <div class="col-md-4 footer-col">
+          <h3>Mis redes</h3>
+          <ul class="list-inline">
+            <li><a href="https://www.instagram.com/?hl=es-es"><img src="/imagenes/Instagram-Logo.png" width="60px"></a>
+            </li>
 
-    </main>
-
-
-    <footer class="text-center footer-style">  
-        <div class="container">
-          <div class="row">
-              <div class="col-md-4 footer-col">
-                <h3>Localidad</h3>
-                <p>
-                    San Nicolás de los Arroyos 
-                </p>
-                <p>
-                  Buenos Aires 
-                </p>
-                <p>
-                  Argentina
-                </p>
-              </div>
-              <div class="col-md-4 footer-col">
-                <h3>Mis redes</h3>
-                <ul class="list-inline">
-                    <li><a href="https://www.instagram.com/?hl=es-es"><img src="/imagenes/Instagram-Logo.png" width="60px"></a></li>
-      
-                    <li><a href="https://wa.me/5493364631836"><img src="/imagenes/WhatsApp_icon.png.webp" width="40px"></a></li>
-                </ul>
-              </div>
-              <div class="col-md-4 footer-col">
-                <h3>Preparados personalizados</h3>
-                <p>Más de 5 años de experiencia en Terapia Floral y me apasiona lo que hago!</p>
-            </div>
-          </div>
+            <li><a href="https://wa.me/5493364631836"><img src="/imagenes/WhatsApp_icon.png.webp" width="40px"></a></li>
+          </ul>
         </div>
-      </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+        <div class="col-md-4 footer-col">
+          <h3>Preparados personalizados</h3>
+          <p>Más de 5 años de experiencia en Terapia Floral y me apasiona lo que hago!</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

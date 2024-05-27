@@ -14,7 +14,7 @@ header {
  h1 {
 
     font-family: castellar;
-    text-align: center;
+    text-align:center;
     
  }
 
@@ -73,7 +73,7 @@ h2 {
 
    font-family: Lucida Bright;
    padding-top: 3em;
-   padding-bottom: 2em;
+   padding-bottom: 1em;
    text-align: center;
    margin: 5em;
 
@@ -97,7 +97,7 @@ h2 {
 
 p{
 
-   margin: 1em;
+   text-align: center;
 
 }
 
@@ -184,19 +184,58 @@ video h2 {
 
 .section {
 
-margin-left: 15em;
-margin-right: 15em;
+   margin-left: 15em;
+   margin-right: 15em;
+   padding-bottom: 15em;
 
 }
 
 
 p {
 
-   text-align: justify;
+   text-align: center;
+   margin: 3em;
 
 }
 
 
+/*terapia Floral*/
+
+section.row{
+
+   grid-column-gap: 15em ;
+   padding-left: 5em;
+   margin: 5em;
+
+}
+
+section.metodo{
+
+   padding-top:5em;
+   padding-bottom: 5em;
+}
+
+/*sobre HY*/
+
+
+table td{
+
+   font-size:larger;
+   padding-left: 2em;
+   padding-right: 2em;
+   padding-top: 1em;
+   padding-bottom: 1em;
+   text-align: center;
+   
+}
+
+table {
+
+   background-color:#FCF4F0;
+   margin-left: 30em;
+
+}
+ 
 
 /*footer */
 .footer-style {
