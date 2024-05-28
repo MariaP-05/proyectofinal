@@ -4,14 +4,14 @@ function boton_click () {
     //definimos todas las constantes chek y text
     const flores=[];
     //pregunta 1
-    const txt_temor =  document.getElementById("temor").value;
+    //const txt_temor =  document.getElementById("temor").value;
     const checkParalizante = document.querySelector('[name="paralizante"]:checked');
     const checkCausa_conocida = document.querySelector('[name="causa_conocida"]:checked');
     const checkDescontrol = document.querySelector('[name="descontrol"]:checked');
     const checkMagico = document.querySelector('[name="magico"]:checked');
     const checkPerdida = document.querySelector('[name="perdida"]:checked');
     //pregunta 2
-    const txt_incertidumbre =  document.getElementById("incertidumbre").value;
+    //const txt_incertidumbre =  document.getElementById("incertidumbre").value;
     const checkDuda = document.querySelector('[name="duda"]:checked');
     const checkInestabilidad = document.querySelector('[name="inestabilidad"]:checked');
     const checkCansancio = document.querySelector('[name="cansancio"]:checked');
@@ -19,7 +19,7 @@ function boton_click () {
     const checkDesesperanza = document.querySelector('[name="desesperanza"]:checked');
     const checkIndecision = document.querySelector('[name="indecision"]:checked');
     //pregunta 3
-    const txt_desinteres =  document.getElementById("desinteres").value;
+    //const txt_desinteres =  document.getElementById("desinteres").value;
     const checkDesatencion = document.querySelector('[name="desatencion"]:checked');
     const checkNostalgia = document.querySelector('[name="nostalgia"]:checked');
     const checkApatia = document.querySelector('[name="apatia"]:checked');
@@ -28,18 +28,18 @@ function boton_click () {
     const checkRepeticion = document.querySelector('[name="repeticion"]:checked');
     const checkDepresion_desc = document.querySelector('[name="depresion_desc"]:checked');
     //pregunta 4
-    const txt_soledad =  document.getElementById("soledad").value;
+    //const txt_soledad =  document.getElementById("soledad").value;
     const checkOrgullo = document.querySelector('[name="orgullo"]:checked');
     const checkImpaciencia = document.querySelector('[name="impaciencia"]:checked');
     const checkEscucha = document.querySelector('[name="escucha"]:checked');
     //pregunta 5
-    const txt_hipersensibles =  document.getElementById("hipersensibles").value;
+    //const txt_hipersensibles =  document.getElementById("hipersensibles").value;
     const checkAngustia = document.querySelector('[name="angustia"]:checked');
     const checkSometimiento = document.querySelector('[name="sometimiento"]:checked');
     const checkInfluencia = document.querySelector('[name="influencia"]:checked');
     const checkEnvidia = document.querySelector('[name="envidia"]:checked');
     //pregunta 6
-    const txt_desesperado =  document.getElementById("desesperado").value;
+   // const txt_desesperado =  document.getElementById("desesperado").value;
     const checkInseguridad = document.querySelector('[name="inseguridad"]:checked');
     const checkCulpa = document.querySelector('[name="culpa"]:checked');
     const checkAbrumacion = document.querySelector('[name="abrumacion"]:checked');
@@ -49,7 +49,7 @@ function boton_click () {
     const checkImpureza = document.querySelector('[name="impureza"]:checked');
     const checkNoexpresa = document.querySelector('[name="noexpresa"]:checked');
     //pregunta 7
-    const txt_sufrirxotros =  document.getElementById("sufrirxotros").value;
+    //const txt_sufrirxotros =  document.getElementById("sufrirxotros").value;
     const checkPosesivo = document.querySelector('[name="posesivo"]:checked');
     const checkEntusiasmo = document.querySelector('[name="entusiasmo"]:checked');
     const checkAutoritario = document.querySelector('[name="autoritario"]:checked');

@@ -110,7 +110,7 @@ section {
 
 /*aside*/
 
-.video{
+.imagen{
 
    float:right;
    background-color: #C6CEBE;
@@ -121,7 +121,7 @@ section {
 
 }
 
-.video img {
+.imagen img {
 
    width: 200px;
    display: block;
@@ -130,7 +130,7 @@ section {
 
 }
 
-video h2 {
+.imagen h2 {
 
    text-align: center;
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -171,7 +171,7 @@ video h2 {
 
    font-family: Algerian;
    text-align: center;
-   padding-top: 1em;
+   padding-top: 3em;
 
 }
 
@@ -237,12 +237,21 @@ table {
 
 }
  
+/*floresqueson estilo*/
+
+.video {
+
+   padding-top: 1em;
+   padding-bottom: 5em ;
+   padding-left: 5em;
+   padding-right: 5em;
+
+}
 
 
 /*estilo formulario*/
 
-
-.formulario{
+.formulario_flores{
 
    width:600px;
 	padding:16px;
@@ -251,13 +260,24 @@ table {
    margin-bottom: 2em;
    margin-left: 25em;
    margin-right: 15em;
-	background-color:#ccc;
+	
 
 }
 
 .envoltura{
 
    margin: 1em;
+   background-image: url(/imagenes/olive.jpg);
+}
+
+.form{
+
+   background-color:#FCF4F0 ;
+   margin-top: 2em;
+   margin-bottom: 2em;
+   padding-left: 8em;
+   padding-right: 5em;
+	
 
 }
 
@@ -265,6 +285,7 @@ table {
 
    font-family: castellar;
    text-align: center;
+   padding-top: 1em;
 }
 
 .form label{
@@ -279,9 +300,8 @@ table {
    border: 1px solid #ccc;
    border-radius: 5px;
    padding: 10px;
-   width: 250px;
+   width: 300px;
    
-
 }
 
 .input_incertidumbre{
@@ -289,7 +309,7 @@ table {
    border: 1px solid #ccc;
    border-radius: 5px;
    padding: 10px;
-   width: 250px;
+   width: 300px;
    
 }
 
@@ -298,7 +318,7 @@ table {
    border: 1px solid #ccc;
    border-radius: 5px;
    padding: 10px;
-   width: 250px;
+   width: 300px;
 
 }
 
@@ -307,7 +327,7 @@ table {
    border: 1px solid #ccc;
    border-radius: 5px;
    padding: 10px;
-   width: 250px;
+   width: 300px;
 
 }
 
@@ -316,7 +336,7 @@ table {
    border: 1px solid #ccc;
    border-radius: 5px;
    padding: 10px;
-   width: 250px;
+   width: 300px;
 
 }
 
@@ -326,7 +346,7 @@ table {
    border: 1px solid #ccc;
    border-radius: 5px;
    padding: 10px;
-   width: 250px;
+   width: 300px;
 
 }
 
@@ -335,7 +355,7 @@ table {
    border: 1px solid #ccc;
    border-radius: 5px;
    padding: 10px;
-   width: 250px;
+   width: 300px;
 
 }
 
