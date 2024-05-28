@@ -225,7 +225,7 @@ function boton_click () {
 
  
     //al final informo con la alerta
-    alert ("¡Gracias por sumarte! Estas son las flores que te acompañaran:  \n" + flores +
+    alert ("¡Gracias por sumarte! Esta/s flor/es te acompañara/n:  \n" + flores +
      " \n \n (Esto es a modo de juego. Será necesario que consultes con tu terapeuta floral de confianza)") 
 }
 

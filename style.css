@@ -150,18 +150,33 @@ section {
 .card {
 
    margin: 0 .5em;
-   width: calc(100%/3);
-   
+   width: calc(100%/3);   
 
 }
 
 .img_env {
 
-   width: 200px;
-   height: 200px;
+   width: 300px;
+   height: 150px;
 
 }
 
+.card-body {
+
+   float: none;
+   margin-left: 20px;
+   margin-bottom: 30px;
+   text-align: center;
+
+}
+
+.botones-informacion { 
+   
+   position: absolute;
+   bottom: 10px;
+   right: 70px; 
+
+}
 
 
 
@@ -373,7 +388,33 @@ table {
 
 }
 
+/*aspen*/
 
+.Aslistado_desordenado {
+
+   margin-left: 30em;
+
+}
+
+.aspen_sect {
+
+   padding-bottom: 5em;
+
+}
+
+/*beech*/
+
+.Blistado_desordenado {
+
+   margin-left: 30em;
+
+}
+
+.beech_sect {
+
+   padding-bottom: 5em;
+
+}
 
 
 /*footer */
