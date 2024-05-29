@@ -57,7 +57,7 @@ function boton_click () {
     const checkRepresion = document.querySelector('[name="represion"]:checked');
 
    
-    //si estan checkiadas agregamos la flor a la lista flores
+    //si estan checkiadas agregamos la flor a la lista flores (si existe checkParalizante)
     //pregunta 1
     if(checkParalizante) {
         flores.push(checkParalizante.value );
@@ -251,56 +251,4 @@ function boton_click () {
 
 
 
-
-
-//document.querySelector("#enviar").addEventListener('click', ()=>{
-/*
-
-    //const checkParalizante=  document.getElementById("paralizante").value;
-    const checkCausa_conocida=document.getElementById("causa_conocida");
-    const checkDescontrol=document.getElementById("descontrol");
-    const checkMagico=document.getElementById("magico");
-    const checkPerdida=document.getElementById("perdida");
-    /*function saludo() {
-    const checkParalizante=  document.querySelector("#paralizante");
-    const checkCausa_conocida=document.querySelector("#causa_conocida");
-    const checkDescontrol=document.querySelector("#descontrol");
-    const checkMagico=document.querySelector("#magico");
-    const checkPerdida=document.querySelector("#perdida");
-    const flores=[];
-
-    if (checkParalizante == true){
-        flores.push("Rock Rose");
-         
-    }
-    console.log("No tenemos este topping" + checkParalizante + 2);
-}
-saludo();*/
-
-
-
-
-/*
-    if (checkCausa_conocida.checked){
-        flores.push("Mimulus");
-    }
-
-    
-    if (checkDescontrol.checked){
-        flores.push("Cherry Plum");
-    }
-
-    if (checkMagico.checked){
-        flores.push("Aspen");
-    }
-
-    if (checkPerdida.checked){
-        flores.push("Red Chestnut");
-    }
-    console.log("No tenemos este topping");
-*/
-
-//document.querySelector("#resultado").innerHTML = listado.join("<br>")
-
-//})
 
